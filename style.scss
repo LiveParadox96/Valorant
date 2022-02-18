@@ -1,0 +1,151 @@
+@import url(https://allfont.ru/allfont.css?fonts=cyrvetica-extra-outline);
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Arial", "a_GroticTitulShHv","a_GroticTitulShHv", arial;
+}
+
+header{
+    color: white;
+    /* width: 100%; */
+    font-size: 14px;
+    // display: inline-flex;
+}
+
+.head{
+    background:black;
+    display: flex;
+    padding: 2em;
+    justify-content: space-around;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    .palka{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+}
+
+.punkt{
+    display: flex;
+    justify-content: center;
+    word-spacing: 1rem;
+    text-transform: uppercase;
+}
+
+.list_header{
+    display: flex;
+    align-items: center;
+    margin-left: -7em;
+}
+
+.char{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    .char_inc{
+        display: flex;
+        justify-content: right;
+    }
+    .char_name{
+        display: flex;
+        justify-content: right;
+    }
+    
+}
+
+.work_areon{
+    background: url(/images/background_red.png) #d02120 no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 80vh;
+}
+
+.agents_pers{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    padding-top: 5rem;
+    .agents{
+        // font-family: 'Cyrvetica Extra Outline', arial, src url(/images/cyrvetica-extra-outline_[allfont.ru].ttf);
+        font-size: 156px;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        height: 80vh;
+        width: 20%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        
+    }
+    .one_pers{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-size: unset;
+        background: url(/images/one_pers.png);
+        background-color: black;
+        width: 20%;
+        height: 65vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-left-radius: 20px;
+        margin-right: 5rem;
+        .skills_one{
+            background: url(/images/skill_block.png) black;
+        }
+
+    }
+    .two_pers{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-size: unset;
+        background: url(/images/two_pers.png);
+        background-color: black;
+        width: 20%;
+        height: 65vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-left-radius: 20px;
+        margin-right: 5rem;
+
+    }
+    .thry_pers{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-size: unset;
+        background: url(/images/thry_pers.png);
+        background-color: black;
+        width: 20%;
+        height: 65vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-left-radius: 20px;
+        margin-right: 5rem;
+
+    }
+    .for_pers{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background-size: unset;
+        background: url(/images/for_pers.png);
+        background-color: black;
+        width: 20%;
+        height: 65vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-top-left-radius: 20px;
+    }    
+}

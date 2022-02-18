@@ -1,0 +1,189 @@
+@import url(https://allfont.ru/allfont.css?fonts=cyrvetica-extra-outline);
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "Arial", "a_GroticTitulShHv","a_GroticTitulShHv", arial;
+}
+
+header {
+  color: white;
+  /* width: 100%; */
+  font-size: 14px;
+}
+
+.head {
+  background: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.logo .palka {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.punkt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  word-spacing: 1rem;
+  text-transform: uppercase;
+}
+
+.list_header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: -7em;
+}
+
+.char {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.char .char_inc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.char .char_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.work_areon {
+  background: url(/images/background_red.png) #d02120 no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.agents_pers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  padding-top: 5rem;
+}
+
+.agents_pers .agents {
+  font-size: 156px;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  height: 80vh;
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.agents_pers .one_pers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: unset;
+  background: url(/images/one_pers.png);
+  background-color: black;
+  width: 20%;
+  height: 65vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  margin-right: 5rem;
+}
+
+.agents_pers .one_pers .skills_one {
+  background: url(/images/skill_block.png) black;
+}
+
+.agents_pers .two_pers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: unset;
+  background: url(/images/two_pers.png);
+  background-color: black;
+  width: 20%;
+  height: 65vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  margin-right: 5rem;
+}
+
+.agents_pers .thry_pers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: unset;
+  background: url(/images/thry_pers.png);
+  background-color: black;
+  width: 20%;
+  height: 65vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  margin-right: 5rem;
+}
+
+.agents_pers .for_pers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: unset;
+  background: url(/images/for_pers.png);
+  background-color: black;
+  width: 20%;
+  height: 65vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+}
+/*# sourceMappingURL=style.css.map */
